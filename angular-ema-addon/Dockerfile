@@ -12,7 +12,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN \
     apk add --no-cache \
         git=2.30.2-r0 \
-        nginx=1.18.0-r13  \
+        nginx=1.20.1\
     && rm -fr \
         /tmp/* \
         /etc/nginx
