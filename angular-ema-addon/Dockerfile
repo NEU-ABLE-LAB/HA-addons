@@ -37,11 +37,11 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Alberto Geniola <albertogeniola@gmail.com>" \
+    maintainer="Able lab" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
-    org.opencontainers.image.authors="Alberto Geniola <albertogeniola@gmail.com>" \
+    org.opencontainers.image.vendor="Home Assistant ABle lab Add-ons" \
+    org.opencontainers.image.authors="Able lab" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \

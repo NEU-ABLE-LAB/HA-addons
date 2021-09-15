@@ -1,9 +1,9 @@
 {
-    "name": "Hello Angular Addon",
+    "name": "EMA  Angular Addon",
     "version": "dev",
-    "slug": "helloangularaddon",
-    "description": "Simple Angular Hello-World behind nginx ingress",
-    "url": "https://github.com/albertogeniola/test-addon-ingress",
+    "slug": "emaangularaddon",
+    "description": "Simple Angular SurveyJS behind nginx ingress",
+    "url": "https://github.com/NEU-ABLE-LAB/HA_addons",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "boot": "auto",
