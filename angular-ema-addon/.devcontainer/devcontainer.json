@@ -11,7 +11,12 @@
 		"--privileged"
 	],
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.profiles.linux": {
+			"zsh (login)": {
+				"path": "zsh",
+				"args": ["-l"]
+			}
+		}
 	},
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/test_hassio/addons/local/myaddon,type=bind,consistency=delegated",
 	"workspaceFolder": "/workspaces/test_hassio/addons/local/myaddon",
